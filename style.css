@@ -11,8 +11,14 @@ body
 	padding: 10px;
 	padding-top: 30px;
 	padding-bottom: 0px;
-	background: #c8c8c8;
+	background: #c64b4b;
 }
+
+#headerMain a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
 
 #headerText
 {
@@ -42,7 +48,7 @@ body
 
 .navigationOptions a{
 	
-	background: #c8c8c8;
+	background: #c64b4b;
 	color: white;
 	padding: 10px;
 	padding-left: 20px;
@@ -53,7 +59,7 @@ body
 }
 
 .navigationOptions a:hover{
-	background: #c64b4b;
+	background: #444444;
 
 }
 
@@ -61,12 +67,12 @@ body
 	float:left;
 	padding-top: 25px;
 	padding-left: 30px;
-	color: #838383;
+	color: #444444;
 	width: 800px;
 }
 h1{
 	font-size: 50px;
-	color: #838383;
+	color: #444444;
 	line-height: 0px;	
 }
 
