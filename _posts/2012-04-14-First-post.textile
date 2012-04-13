@@ -1,0 +1,8 @@
+---
+published: true
+layout: post
+title: First Post
+category: misc
+---
+
+So, I copied <a href="https://github.com/gitready">Gitready's</a> design, because it looked really nice.
