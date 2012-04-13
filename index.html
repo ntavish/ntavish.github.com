@@ -1,7 +1,12 @@
 ---
 layout: default
-title: nTavish.in
+title: learn git one commit at a time
 ---
-
-<h1>Lorem Ipsum</h1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisi tortor, elementum nec vestibulum hendrerit, lacinia vel orci. Cras vitae mauris eu massa consectetur iaculis vel ultrices nulla. Proin eu justo nunc. Integer ornare dictum urna, et consectetur quam molestie eget. Morbi et sem sed dolor imperdiet gravida. Nullam sed dui sed nisi tempor dapibus ac commodo lacus. Quisque vel nulla eget mi rhoncus pellentesque. Mauris et nulla at ipsum hendrerit commodo. In hac habitasse platea dictumst. 
+{% assign first_post = site.posts.first %}
+<div id="post" class="grid_6 alpha content">
+  <h2><a href="{{ first_post.url }}">
+    {{ first_post.title }}
+  </a></h2>
+  {{ first_post.content | truncate: 450 }}
+    <a id="more" href="{{ first_post.url }}">Read More &raquo;</a>
+</div>
