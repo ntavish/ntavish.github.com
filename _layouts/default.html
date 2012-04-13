@@ -1,23 +1,56 @@
-<html>
-	<head>
-		<LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
-			<link rel="icon" type="image/png" href="icon.png" />
-	</head>
-	<body>
-		<div id="headerMain">
-			
-			<div id="headerText"><a href="index.html"><span style="color:#ffffff">{{page.title}}</span></a></div>
-		</div>
-		<div>
-		<div id="navigationPanel">
-			<div class="navigationOptions"><a href="#">Home</a></div>
-			<div class="navigationOptions"><a href="html://blog.ntavish.in">Blog</a></div>
-			<div class="navigationOptions"><a href="#">About</a></div>
-			<div class="navigationOptions"><a href="#">Contact</a></div>
-		</div>
-		<div id="content">
-		    {{content}}
-		</div>
-		</div>
-	</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>nTavish &raquo; {{ page.title }}</title>
+   <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="css/960.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+  <div class="container_12">
+    <div class="grid_4 prefix_2 title">
+      <h1><a href=".">nTavish</a></h1>
+    </div>
+    <div class="grid_4 suffix_2 info">
+      <div class="extra">welcome to my corner</div>
+      <div class="author">Tavish Naruka</div>
+    </div>
+    <div class="grid_8 prefix_2 suffix_2 main">
+      {{ content }}
+    </div> 
+    <div class="grid_2 prefix_2 links">
+      <h3 id="green">blog</h3>
+      {% for post in site.categories.blog %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+    <div class="grid_2 links">
+      <h3 id="yellow">projects</h3>
+      {% for post in site.categories.projects %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+    <div class="grid_2 links">
+      <h3 id="red">misc</h3>
+      {% for post in site.categories.misc %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+    <div class="grid_2 suffix_2 links">
+      <h3 id="blue">resources</h3>
+      <a href="http://opensource.jiitu.org/wiki">OSDC</a>
+    </div>
+    <div class="grid_12 footer">
+      <div class="footer_links">
+        <a href="about.html">about</a>
+        <a href="http://github.com/gitready/tavishnaruka">code</a>
+        <a href="submit.html">submit a tip</a>
+        <a href="http://twitter.com/ntavish">twitter</a>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
