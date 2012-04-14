@@ -34,5 +34,3 @@ int main()
 *   Item 3
 
 _This_ *is* **very** __easy__.
-
-
