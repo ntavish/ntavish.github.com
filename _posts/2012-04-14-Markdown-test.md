@@ -24,7 +24,7 @@ Not a paragraph. We write the `main()` function here.
 
 *   This is a code block:
 
-{% highlight C %}
+{% highlight c %}
 int main()
 {
     hi();
