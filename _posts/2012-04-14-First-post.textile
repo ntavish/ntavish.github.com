@@ -8,9 +8,3 @@ category: misc
 <a href="http://gitready.com">Gitready's</a> design looks nice, so I decided to use it for this site.<br>
 This is hosted on github-pages, using jekyll. I'll probably use it as a regular blog now.
 
-{% highlight c %}
-int main()
-{
-  printf("for real. I know.");
-}
-{% endhighlight %}
