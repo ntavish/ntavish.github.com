@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font: 13.34px Verdana, helvetica, arial, clean, sans-serif;
-  *font-size: small;
+  font-size: small;
   background: #222;
 }
 
