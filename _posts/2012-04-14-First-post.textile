@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: First Post
-category: misc
+category: blog
 ---
 
 <a href="http://gitready.com">Gitready's</a> design looks nice, so I decided to use it for this site.<br>
