@@ -28,7 +28,7 @@ First of all you need a system running linux,you don't _need_ one
 (http://www.yoctoproject.org/documentation/build-appliance) but your
 work will probably be more difficult. [This](http://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html)
 gives you a quick intro to how to get your environment setup etc.
-![Yocto](images/yocto.png)
+![Yocto](/images/yocto.png)
 
 After you do the `. ./oe-init-build-env TargetDir` step, you will be 
 cd'd to that directory with a few scripts/program paths appended to
