@@ -16,6 +16,21 @@ absolutely not. They are complimentary, or symbiotic or whatever.
 'Computer engineers' develop systems, and to do that you need to 
 know stuff from several fields.
 
+In older days, if you were a 'computer and electronics engineer'(or just 
+someone who does that kind of stuff), you would know exactly what you have 
+in your computer or any elecronics device you have. Even if you werent, you would 
+have access to its schematics and datasheets probably(possibly in print). This was
+probably because:
+
+* The computers then were simpler
+* Manufacturers didnt really try to hide what was inside their devices or prevent any modifications
+
+Take most consumer device nowadays; not only do the manufacturers put a restriction
+on how you can use their device(an example would be of [Sony suing hacker over ps3 jailbreak](http://www.informationweek.com/security/attacks/sony-sues-hackers-over-ps3-jailbreak/229000603) ), 
+they hide any information related to the devices which would help users to know much about the device's 
+innards or use them in ways not intended by the manufacturer. Which is not fair, since this
+restricts people's freedom, they cannot even do things they want with things that they own.
+
 Adafruit, spirit of oneupmanship, show and tell.etc.
 
 incomplete blogpost - missing middle section.
@@ -48,6 +63,8 @@ about how a C langauege works. How does the first instruction get executed?
 When does main get called? Is main anything special? How do stack and heap work?
 You will at some point want to be able to include the c standard library.
 How do you do that on an embedded system with no standard input/outputs?
+This is some stuff I could recall. You will be reading a lot of others code
+because there probably will be no other shortcut.
 
 When you are finished with working with just plain barebones code,
 you can look into running an RTOS on your board, embedded RTOS are usually pretty compact
