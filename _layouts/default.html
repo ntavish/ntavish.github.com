@@ -14,19 +14,25 @@
    <link rel="stylesheet" href="/css/960.css" type="text/css" media="screen, projection" />
 </head>
 <body>
-  <div class="container_12">
-    <div class="grid_4 prefix_2 title">
+  <div class="container_16">
+    <div class="grid_4 prefix_1 title">
       <h1><a href="/">nTavish</a></h1>
     </div>
-    <div class="grid_4 suffix_2 info">
+    <div class="grid_4 prefix_6 info">
       <div class="extra">welcome to my corner</div>
       <div class="author">Tavish Naruka</div>
     </div>
-    <div class="grid_8 prefix_2 suffix_2 main">
+  </div>
+  
+  <div class="container_16">
+    <div class="grid_16 prefix_1 main">
       {{ content }}
     </div> 
-    <br>
-    <div class="grid_2 prefix_2 links">
+
+  </div>
+
+  <div class="container_16">
+    <div class="grid_2 prefix_2	 links">
       <h3 id="green">blog</h3>
       {% for post in site.categories.blog %}
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -49,13 +55,15 @@
       <!--  
         links
       -->
-	<a href="http://www.google.com/reader/bundle/user%2F11560762585625927891%2Fbundle%2FWebcomics">Perhaps you'd like some comics</a>
 	<a href="http://blog.ntavish.in/">Old blog</a>
 
 	<a href="atom.xml">Atom feed</a>
 
-    </div>    
-    <div class="grid_12 footer">
+    </div>
+  </div>
+
+  <div class="container_16">
+    <div class="grid_13 prefix_2 suffix_1 footer">
       <div class="footer_links">
         <a href="/about.html">about</a>
         <a href="http://github.com/tavishnaruka">code</a>
