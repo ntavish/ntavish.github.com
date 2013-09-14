@@ -6,7 +6,7 @@ body {
 }
 
 iframe { 
-	margin: 0 15px;
+	margin: 0 15px; 
 }
 
 a {
@@ -80,18 +80,19 @@ p {
 
 
 .title {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .title h1 {
   display:inline;
+  align:center;
 }
 
 .title h1 a {
   color: #92BF6F;
   font-weight: bold;
-  margin-bottom: 20px;
-  font-size: 50px;
+  margin-bottom: 20px; 
+  font-size: 70px;
   font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
 }
 
@@ -148,14 +149,36 @@ h2{
 h2 a { color: #000; }
 
 h3{
-  font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
+  	font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
+	padding: 10px;
+	font-size: 19px;
+	font-weight: bold;
+}
+#post h3{ margin-left: 5px; }
+
+h4{
+  	font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
+	padding: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+#post h4{ margin-left: 5px; }
+
+h5{
+  	font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
 	padding: 10px;
 	font-size: 15px;
 	font-weight: bold;
-  font-size: 16px;
 }
+#post h5{ margin-left: 5px; }
 
-#post h3{ margin-left: 5px; }
+h6{
+  	font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#post h6{ margin-left: 5px; }
 
 
 #green { color: #99FF80; }	
@@ -223,7 +246,7 @@ color: #aaa;
   
 
   blockquote{
-    font: 14px/22px normal helvetica, sans-serif;
+/*    font: 14px/22px normal helvetica, sans-serif; */
     margin: 10px 50px;
     padding-left: 10px;
     padding-top: 10px;
@@ -234,18 +257,19 @@ color: #aaa;
   blockquote p { margin: 0; padding: 0; }
   pre {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #eef; 
     padding: 0 .4em;
     text-align: left; 
-    font-size: 90%;
+    font-size: 100%;
     margin: 0 15px;
-    overflow: hidden;
+    border-left: 5px solid #ccc;
+    overflow: hidden; 
   }
   
   code {
     border: 1px solid #ddd;
     background-color: #eef;
-    font-size: 95%;
+    font-size: 100%;
     padding: 0 .2em;
   }
   

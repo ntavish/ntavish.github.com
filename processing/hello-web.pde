@@ -12,6 +12,7 @@ PFont fontA;
 // Setup the Processing Canvas
 void setup()
 {
+  background( 2236962 );
   fontList = PFont.list();
   size( 600, 100 );
   frameRate( 30 );

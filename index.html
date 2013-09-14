@@ -2,19 +2,28 @@
 layout: default
 title: home
 ---
-{% assign first_post = site.posts.first %}
+{% for post in site.posts limit: 2 %}
+
+<div class="grid_10 title"> </div>
 <div id="post" class="grid_10 content">
-  <h2><a href="{{ first_post.url }}">
-    Latest: {{ first_post.title }}
+  <h2><a href="{{ post.url }}">
+    {{ post.title }}
   </a></h2>
-  {{ first_post.content }}
-  <a id="more" href="{{ first_post.url }}">Comments &raquo;</a>
+  {{ post.content }}
+  <a id="more" href="{{ post.url }}">Comments &raquo;</a>
 </div>
+
+{% if forloop.first %}
+
 <div class="grid_4">
   <h3 id="purple">recent posts</h3>
   <ul class="recent">
-  {% for post in site.posts limit: 7 %}
+  {% for post in site.posts limit: 20 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 </div>
+
+{% endif %}
+
+{% endfor %}
