@@ -1,7 +1,7 @@
 ---
 layout: page
-title: nTavish.in
-tagline: home
+title: Home
+tagline:
 ---
 {% for post in site.posts limit:2 %}
 <div class="post">
