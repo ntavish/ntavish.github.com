@@ -1,0 +1,22 @@
+<div class="page-header-wrapper">
+	<div class="page-header">
+  		<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+  	</div>
+</div>
+
+<div class="row">
+	<div class="span8">
+		{{ content }}
+	</div>
+	<div class="span4">
+	  <h3 >Recent posts</h3>
+	  {% for post in site.posts limit: 20 %}
+	    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	  <hr>
+	  <h3 >Some links</h3>
+	  <a href="http://blog.ntavish.in/">Old blog</a><br>
+	  <a href="{{site.url}}/atom.xml">Atom feed</a><br>
+	</div>
+	<hr>
+</div>

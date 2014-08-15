@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title: First Post
+category: misc
+tags: 
+---
+
+<a href="http://gitready.com">Gitready's</a> design looks nice, so I decided to use it for this site.<br>
+This is hosted on github-pages, using jekyll. I'll probably use it as a regular blog now.
+
+Edit: Switched to jekyll-bootstrap with hooligan theme.
+
