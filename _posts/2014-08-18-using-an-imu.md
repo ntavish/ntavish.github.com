@@ -58,7 +58,7 @@ To do this, first you need the initial/origin quaternion value(or, quaternion at
 which you consider to be initial). Need the initial one only to "reset" quaternion
 into our preferred origin position. This is done by
 
-	q = quaternion_multiply( q_cur, conjugate(q_origin) )
+	q = q_cur * conjugate(q_origin)
 
 this works because to compound to rotations, we multiply the quaternions, and to reverse 
 one rotation, we take the conjugate(negate the signs of components).
@@ -81,13 +81,29 @@ This rotates x axis(1,0,0) by rotation q_origin. (quaternions output from mpu re
 relative rotation from the moment it started calculations, not absolute orientation, so we 
 had to rotate our q_cur earlier by conj(q_origin)).
 
-The angle can be calculated by:
+The modification is done just after we do `q = q_cur * conjugate(q_origin)`. The angle can be calculated by:
 	
 	xangle = acosf(quat_dot(q, xaxis))*180/pi  , etc
 
 This somehow gives half/(or double?) angle, have to check calculations for this. But it 
 gives the angle. Much much more accurate and responsive than low passing accelerometer 
 readings.
+
+This is actually incomplete. The X, Y, Z axes are stuck in fixed direction, BUT we want our
+angle reading to be Z-axis invariant, that means we want x and y axes to move with us.
+
+One simple solution is to rotate our `q_origin` everytime before we do the above 
+calculations, by the inverse amount it has rotated in the Z-axis.
+
+	inverse_angle = -1.0 * acos( quat_dot(q_cur, zaxis) )
+	z_rot.q0 = cos(inverse_angle) + 0i + 0j + sin(inverse_angle)*k
+	q_compounded = z_rot * q_cur
+	q_origin = q_compounded
+
+(Note that we are using zaxis before we are calculating it, so it means we have to 
+calculate `zaxix = q_origin * z * conj(q_origin)` when we are setting `q_origin` also)
+
+Now when we calculate the tilts, they will be z-axis invariant, angles will be tilts from perfectly horizontal xy plane.
 
 Another simple application is to use this to detect taps/thumps etc. Although mpu9150 has
 code for doing this within the DMP, but it is written for(actually is in binary blob) 
