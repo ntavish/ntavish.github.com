@@ -4,6 +4,7 @@ layout: post
 title: Huge list of music
 category: misc
 tags: music
+published: false
 ---
 In progress curated list of music I like.
 
@@ -33,12 +34,12 @@ bq. His music is very whimsical and 'resonates' with you.
 bq. metal, opera, swing jazz, tango, and spaghetti western; and good
 
 * The whole of Butcher's Ballroom(their first album), is available for free on "Jamendo":http://www.jamendo.com/en/list/a49216/the-butcher-s-ballroom
+
 * 2nd album 'Sing along songs for the damned and delirious'
-** A tap dancer's dilemma
-** Lucy fears the morning star
-** Vodka inferno
-** Ricerca dell'anima
-** Stratosphere serenade
+** A tap dancer's dilemma "video":https://www.youtube.com/watch?v=osTu38yuuHo
+** Lucy fears the morning star "video":https://www.youtube.com/watch?v=tk_1yz0cETM
+** Ricerca dell'anima "video":https://www.youtube.com/watch?v=DV1smqpjOb4
+** Stratosphere serenade "video":https://www.youtube.com/watch?v=Vug69ZDqcKo
 
 * 3rd album 'Pandora's Pinata'
 ** Guerrila Laments
@@ -55,16 +56,6 @@ bq. Known as Jazziza
 * Boomerang, "youtube":http://www.youtube.com/watch?v=LWkbDjfosl0
 * A.J.D., "youtube":http://www.youtube.com/watch?v=1kb1kls73Hw this is with her azerbaijani singing
 
-*Rodrigo Y Gabriela*
-
-bq. awesome acoustic guitar playing duo
-
-* "Tamacun":http://www.youtube.com/watch?v=l-qgum7hFXk
-* "Hanuman":http://www.youtube.com/watch?v=ENBX_v1Po1Y
-* "Buster voodoo":http://www.youtube.com/watch?v=G9fmlZwAfDg
-* "Savitri":http://www.youtube.com/watch?v=G9fmlZwAfDg
-* "Hora zero":http://www.youtube.com/watch?v=NcLtqBmlV-U
-
 *Haggard*
 
 bq. Symphonic metal + classical/old music
@@ -80,12 +71,15 @@ bq. Symphonic metal + classical/old music
 
 *Opeth*
 
-*Skyharbor*
-
 *Ann marie calhoun*
 
 *Eluveitie*
 
-*Yanni*
+*Aurelio Voltaire*
+
+*Ayreon*
+
+*Caravan Palace*
+
 
 PS: This _feels_ better than a playlist
