@@ -6,7 +6,7 @@ category: blog
 tags: AVR, RTOS, C, programming
 ---
 
-## Atomthreads and active object design pattern
+# Atomthreads and active object design pattern
 
 [Atomthreads](http://atomthreads.com/) is a small task scheduler with AVR, stm8 and stm32 ports available. It has the very permissive BSD licence. More about it's features [here](http://atomthreads.com/?q=node/11).
 
@@ -14,7 +14,7 @@ It's a preemptive scheduler with multiple priorities for threads, and it provide
 
 Atomthreads is very lightweight, the core is written in ANSI C, and only a very small amount of architechture specific code is required. Atomthreads uses only a single timer in it's avr port for it's system tick.
 
-#### Multithreading considerations
+## Multithreading considerations
 
 Some things to take care of when programming with an rtos/task scheduler such as atomthreads, chibios, freertos([list of other open source RTOSs](http://www.osrtos.com/)):
 
@@ -27,11 +27,11 @@ Some things to take care of when programming with an rtos/task scheduler such as
 - All interrupt handlers apart from the system tick interrupt which you setup at the start should be enclosed in AtomIntEnter() and AtomIntExit(FALSE), this prevents rescheduling. (There is usually something similar in other RTOSs too, check documentation).
 
 
-#### About priority inversion:
+### About priority inversion:
 
 Priority inversion happens happens when a medium priority thread preempts a lower priority thread while a higher priority thread is waiting on a shared resource currently with the lower priority thread. This means that even though the higher priority thread is ready to run (provided the lower priority thread finished it's work and released control of the shared resource), the medium priority thread is executing in it's place, i.e. an inversion of priority has occurred. This can lead to hard to find/reproduce bugs.
 
-#### Reentrant code
+### Reentrant code
 
 Reentrant functions can have multiple concurrent invocations which do not interfere with each other, this is done by managing how the data is used in these. From [here](http://www.embedded.com/electronics-blogs/beginner-s-corner/4023308/Introduction-to-Reentrancy), I'll just list the three conditions for reentrant code
 
@@ -51,7 +51,7 @@ Rule 2 is obvious, if your code calls other non-reentrant code, then your code i
 
 Rule 3 can be taken care of in a similar way as when dealing with shared memory.
 
-### Active objects
+## Active objects
 
 One design pattern to prevent priority inversion (and other possible issues related to coding 'naked threads') is called the '[active object](http://www.state-machine.com/doc/concepts.html#Active)' pattern. In this, the thread and the resouces it needs are encapsulated together, and the resources are not exposed by any interface. The threads act like message routers. An example of such an implementation would:
     
@@ -63,7 +63,7 @@ This allows for more efficient scheduling and prevents any deadlock(possibly) or
 
 Notice that this means that for most things each thread need not even have reentrant code, since we encapsulate all the resources a thread needs with itself and do not allow outside access
 
-#### State machine design of threads 
+### State machine design of threads 
 
 One good coding rule to follow while creating threads is to never wait for a particular message, instead accept and 'route' all messages, when the thread needs some kind of reply, make the other thread send a message to it's queue. There might be an internal state to the thread which is affected by the incoming message, it can be implemented in a state machine, or even better as an hierarchical state machine, so all messages are still handled while waiting on a response even if a timeout). I'm still trying to figure out how to implement such a hierarchical state machine myself.
 
