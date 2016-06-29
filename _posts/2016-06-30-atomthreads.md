@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Atomthreads / active ojects
+title: Atomthreads, active ojects
 category: blog
 tags: AVR, RTOS, C, programming
 ---
