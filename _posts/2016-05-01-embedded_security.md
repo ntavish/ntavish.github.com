@@ -9,13 +9,13 @@ These are some notes I had about the topic of security in embedded systems, and 
 
     Internet of things is the nightmare of pervasive embedded insecurity made real - Taylor swift (@SwiftOnSecurity)
 
-* #### Why is it important
+* ### Why is it important
     * embedded devices are in places which are likely to be hidden from sight and work without as much intervention/interaction as other tech (desktop applications, websites)
     * we also have cars which are connected to the internet now(have remote firmware updates), also fridges, and TVs with mics and cameras
     * supposedly secure tech/service/device might be compromised due to underlying insecurity in an embedded device in the path
     * how important it should be to you would depend on how much is at stake (privacy, security of other systems dependant on this)
 
-* #### Why is it hard
+* ### Why is it hard
     * security is hard in general, for embedded systems it is even more harder
     * firmware upgrades not always easy/possible
     * on-device passwords / keys need to be stored properly; devices often have default passwords which never get changed
@@ -23,7 +23,7 @@ These are some notes I had about the topic of security in embedded systems, and 
     * software bugs
 
 
-* #### Cases in the wild
+* ### Cases in the wild
     * http://qz.com/789970/krebs-ddos-akamai-akam-a-massive-attack-that-may-have-hijacked-online-cameras-could-soon-be-the-new-normal/
     * routers are regularly found to have big security issues, this can be really bass since routers are part of your infrastructure which other things use. See SOHOpelesdly broken
     * recently tp-link locked their firmware because of fcc change in rules regarding firmware which can be modified by customers, which is an issue because this prevents users patching hardware that is running in their own networks
@@ -33,7 +33,7 @@ These are some notes I had about the topic of security in embedded systems, and 
     * http://www.bbc.com/news/technology-28208905 lightbulb leaks wifi passwords
     * Chinese camera with built in p2p features communicates with dozens of ips despite the option to disable p2p on, on by default, vulnerable
 
-* #### Common pitfalls
+* ### Common pitfalls
     * using deprecated crypto, ex. WEP for WiFi, TLS versions which are no longer supported because of not being strong enough
     * common pitfalls of not sanitizing input
     * RNG issues, using sources with low entropy, predictable entropy, or sources which can be tricked (?)
@@ -43,7 +43,7 @@ These are some notes I had about the topic of security in embedded systems, and 
     * ciphers used improperly (RC4 in WEP, xbox etc.), insecure hash functions, md5 no longer considered secure etc.
     * leaving private keys inside devices same across all devices (depends on how secure system needs to be)
 
-* #### Basics of security
+* ### Basics of security
     * do not use homebrew crypto, it means don't create own ways of authentication, or implement your own encryption cipher
     * use standard/public/peer reviewed cryptography, not proprietary/new/your own
     * do not use otherwise secure crypto libraries or functions in a non standard, non recommended way.
@@ -51,7 +51,7 @@ These are some notes I had about the topic of security in embedded systems, and 
     * obscurity does not add to security
     * http://www.edn.com/design/systems-design/4410267/1/The-Right-and-Wrong-Way-to-Implement-Cryptographic-Algorithms-in-Embedded-Electronic-Systems
 
-* #### Suggestions for most common use cases
+* ### Suggestions for most common use cases
     * good coding practices to reduce the 3 most common errors resulting in bugs:buffer overflows, unchecked input, poor handling of integer type checks
         * always sanitize input
         * follow a coding standard maybe? MISRA-C
