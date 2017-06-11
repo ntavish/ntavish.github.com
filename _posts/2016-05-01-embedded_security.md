@@ -50,6 +50,7 @@ These are some notes I had about the topic of security in embedded systems, and 
     * "A cryptosystem should be secure even if everything about the system, except the key, is public knowledge."
     * obscurity does not add to security
     * http://www.edn.com/design/systems-design/4410267/1/The-Right-and-Wrong-Way-to-Implement-Cryptographic-Algorithms-in-Embedded-Electronic-Systems
+    * Stanfor's cryptography course is a good place to learn about cryptography https://www.coursera.org/learn/crypto
 
 * ### Suggestions for most common use cases
     * good coding practices to reduce the 3 most common errors resulting in bugs:buffer overflows, unchecked input, poor handling of integer type checks
