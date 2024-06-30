@@ -47,7 +47,7 @@ body {
 }
 
 .sidelinks a:visited {
-  color: black;
+  color: inherit;
 }
 
 table {
