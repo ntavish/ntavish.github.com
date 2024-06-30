@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tavish's homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="htmx.min.js"></script>
+    <script type="module">
+      import ZeroMd from './zero-md.js'
+      customElements.define('zero-md', ZeroMd)
+    </script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#blog">blog</a>
+      <a href="#projects">projects</a>
+      <a href="#pictures">pictures</a>
+    </div>
+    <br>
+    <table width="100%">
+      <tr>
+      <td width="33.3%" id="col-1">
+        <div hx-get="status/left_column.html" hx-trigger="load">My status</div>
+      </td>
+      <td width="66.7%" id="col-2">
+        <div hx-get="status/" hx-trigger="load">My status</div>
+      </td>
+      </tr>
+    </table>
+  </body>
+</html>
