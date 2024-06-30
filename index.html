@@ -11,9 +11,11 @@
     </script>
   </head>
   <body>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" href="github-markdown.min.css">
     <div class="topnav">
       <a class="active" href="/">Home</a>
-      <a href="#blog" hx-get="blog" hx-target="#col-1" hx-trigger="click">blog</a>
+      <a href="#blog" hx-get="blog/menu.md" hx-target="#col-1" hx-trigger="click">blog</a>
       <a href="#projects">projects</a>
       <a href="#pictures">pictures</a>
     </div>
@@ -22,12 +24,12 @@
       <tr>
       <td width="33.3%">
         <div id="col-1">
-          <div hx-get="status/left_column.html" hx-trigger="load"></div>
+          <div hx-get="menu.md" hx-trigger="load"></div>
         </div>
       </td>
       <td width="66.7%">
         <div id="col-2">
-          <div hx-get="status/" hx-trigger="load"></div>
+          <div hx-get="content.md" hx-trigger="load"></div>
         </div>
       </td>
       </tr>

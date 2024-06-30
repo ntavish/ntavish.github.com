@@ -25,3 +25,17 @@
   background-color: #c24d4d;
   color: white;
 }
+
+.sidelinks a {
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.sidelinks a:hover {
+  color: #c24d4d;
+}
+
+/* Add a color to the active/current link */
+.sidelinks a.active {
+  color: black;
+}
