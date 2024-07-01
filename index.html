@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Tavish's homepage</title>
     <script src="/htmx.min.js"></script>
+    <!-- this is required to force light theme -->
     <script type="module">
       import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
       customElements.define('zero-md',  class extends ZeroMd {
-        <!-- this is required to force light theme -->
         async load() {
           await super.load()
           this.template = `
