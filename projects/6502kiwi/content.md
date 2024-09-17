@@ -13,4 +13,5 @@ the end, and I stopped investigating after a while, and that was years ago).
 
 </script></zero-md>
 
-<zero-md src='https://raw.githubusercontent.com/ntavish/6502_kiwi/main/README.md'></zero-md>
+<zero-md src='https://raw.githubusercontent.com/ntavish/6502_kiwi/master/README.md'></zero-md>
+
