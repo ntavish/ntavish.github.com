@@ -2,6 +2,11 @@
 **Hi!** You've reached my corner of the internet.<br>
 This will be my "status" page and I will try to keep it updated with what I've been up to<br>
 
+*Date*: 2024/09/18
+
+Playing with the M8 tracker (headless), which I just wrote about in here - [Tracker music](/blog/tracker_music).
+Also going to push this blog to ntavish.in now, old blog can remain cached somewhere.
+
 *Date*: 2024/07/01
 
 Just working on [this blog](/blog/thisblog). I have not written a blog in a long time, and the previous blog which used jekyll was not really something I like.
