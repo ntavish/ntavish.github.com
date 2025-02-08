@@ -9,7 +9,7 @@ What I read in 2024
 Non-fiction
 ===========
 
-### [Blood, Sweat, and Pixels](#blood-sweat-and-pixels) (by Jason Schreier)
+### [Blood, Sweat, and Pixels](#blood-sweat-and-pixels-by-jason-schreier) (by Jason Schreier)
 
 ![](blood_sweat_pixels.png)
 
@@ -19,7 +19,7 @@ The most interesting chapters in the book for me were those that covered small (
 
 **Rating**: 3/5
 
-### [The Secret Life of Fungi: Discoveries From a Hidden World](#the-secret-life-of-fungi-discoveries-from-a-hidden-world) (by Aliya Whiteley)
+### [The Secret Life of Fungi: Discoveries From a Hidden World](#the-secret-life-of-fungi-discoveries-from-a-hidden-world-by-aliya-whiteley) (by Aliya Whiteley)
 
 ![](mushrooms.png)
 
@@ -27,7 +27,7 @@ This was a short book about mushrooms and other fungi. It was informational, and
 
 **Rating**: 3.5/5
 
-### [The Soul of a New Machine](#the-soul-of-a-new-machine) (Tracy Kidder)
+### [The Soul of a New Machine](#the-soul-of-a-new-machine-by-tracy-kidder) (by Tracy Kidder)
 
 ![](soul-of-a-new-machine.png)
 
@@ -39,7 +39,7 @@ I highly recommend this book to any engineers who really want to know how it wou
 
 **Rating**: 5/5
 
-### [Coding Democracy](#coding-democracy) (by Maureen Webb)
+### [Coding Democracy](#coding-democracy-by-maureen-webb) (by Maureen Webb)
 
 **Full name**: Coding Democracy: How a Growing Hacking Movement Is Disrupting Concentrations of Power, Mass Surveillance, and Authoritarianism
 
@@ -51,7 +51,7 @@ I really like this book, the author is really smart, and has covered a lot of gr
 
 **Rating**: 5/5
 
-### [Blood in the Machine](#blood-in-the-machine) (by Brian Merchant)
+### [Blood in the Machine](#blood-in-the-machine-by-brian-merchant) (by Brian Merchant)
 
 **Full name**: Blood in the Machine: The Origins of the Rebellion Against Big Tech
 
@@ -61,7 +61,7 @@ Review: Already reviewed [here](../book_luddite/).
 
 **Rating**: 5/5
 
-### [The Internet Con: How to Seize the Means of Computation](#the-internet-con-how-to-seize-the-means-of-computation) (by Cory Doctorow)
+### [The Internet Con: How to Seize the Means of Computation](#the-internet-con-how-to-seize-the-means-of-computation-by-cory-doctorow) (by Cory Doctorow)
 
 ![](internet_con.png)
 
@@ -82,7 +82,7 @@ Covering only the ones I had some thoughts on.
 
 I tried to read more (or some) horror and weird fiction, and these are the highlights:
 
-### **[We Have Always Lived in the Castle](#we-have-always-lived-in-the-castle)** (by Shirley Jackson)
+### **[We Have Always Lived in the Castle](#we-have-always-lived-in-the-castle-by-shirley-jackson)** (by Shirley Jackson)
 
 ![](always_castle.png)
 
@@ -90,7 +90,7 @@ From the PoV of a weird kid, very interesting, uneasy, 'gothic' novel that has s
 
 **Rating**: 5/5
 
-### **[All the Fiends of Hell](#all-the-fiends-of-hell)** (by Adam L.G. Nevill)
+### **[All the Fiends of Hell](#all-the-fiends-of-hell-by-adam-lg-nevill)** (by Adam L.G. Nevill)
 
 ![](fiends_hell.png)
 
@@ -98,7 +98,7 @@ Horror, but very different, I think. It's almost an invasion story where most of
 
 **Rating**: 	4/5
 
-### **[The Ballad of Black Tom](#the-ballad-of-black-tom)** (by Victor LaValle)
+### **[The Ballad of Black Tom](#the-ballad-of-black-tom-by-victor-lavalle)** (by Victor LaValle)
 
 ![](black_tom.png)
 
@@ -106,7 +106,7 @@ A short lovecraftian novella that's well written. The author is making a point a
 
 ## ***Sci-fi / Fantasy***
 
-### **[There Is No Antimemetics Division](#there-is-no-antimemetics-division)** (by qntm)
+### **[There Is No Antimemetics Division](#there-is-no-antimemetics-division-by-qntm)** (by qntm)
 
 ![](antimemetics.png)
 
@@ -114,7 +114,7 @@ I highly recommend this book (although you may want to wait for the edited and t
 
 **Rating**: 5/5
 
-### **[Neuromancer](#neuromancer)** (by William Gibsom)
+### **[Neuromancer](#neuromancer-by-william-gibson)** (by William Gibson)
 
 ![](neuromancer.png)
 
@@ -122,7 +122,7 @@ No wonder why it's considered a classic. It's very atmospheric, has great world-
 
 **Rating**: 5/5
 
-### **[The Element of Fire](#the-element-of-fire)** (by Martha Wells)
+### **[The Element of Fire](#the-element-of-fire-by-martha-wells)** (by Martha Wells)
 
 ![](element_fire.png)
 
@@ -131,7 +131,7 @@ If I have to compare it to something, I think if you like Riyria chronicles, you
 
 **Rating**: 4/5
 
-### **[Double Star](#double-star)** (by Robert A. Heinlein)
+### **[Double Star](#double-star-by-robert-a-heinlein)** (by Robert A. Heinlein)
 
 ![](double_star.png)
 
@@ -139,7 +139,7 @@ Great classic science fiction book that was not at all what I expected (I expect
 
 **Rating**: 4/5
 
-### **[Legends & Lattes](#legends--lattes)** (by Travis Baldree)
+### **[Legends & Lattes](#legends--lattes-by-travis-baldree)** (by Travis Baldree)
 
 ![](legends_latte.png)
 
@@ -147,7 +147,7 @@ I think this is the book that really popularized the cozy fantasy genre growth t
 
 **Rating**: 4/5
 
-### **[Shards of Earth](#shards-of-earth)** (by Adrian Tchaikovsky)
+### **[Shards of Earth](#shards-of-earth-by-adrian-tchaikovsky)** (by Adrian Tchaikovsky)
 
 ![](shards_time.png)
 
