@@ -5,7 +5,7 @@ This will be my "status" page and I will try to keep it updated with what I've b
 *Date*: 2025/07/25
 
 It's been a while since I updated this page, too many things to do.
-the [emforth](/projects/emforth/) page now includes a live demo of it with some instructions. Fixing
+The [emforth](/projects/emforth/) page now includes a live demo of it with some instructions. Fixing
 and debugging emforth took a lot of time, but I wanted to get it working, as it had many problems.
 
 I also made some music, released an EP on [bandcamp](https://patternjuggler.bandcamp.com/album/pickelane). Also available elsewhere.
