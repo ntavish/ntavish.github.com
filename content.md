@@ -2,6 +2,17 @@
 **Hi!** You've reached my corner of the internet.<br>
 This will be my "status" page and I will try to keep it updated with what I've been up to<br>
 
+*Date*: 2025/11/07
+
+No updates here or ellsewhere cause I've been living in my hidey hole. Gave up on some projects (music h/w thing), picked up some new (music s/w thing in [zig](https://ziglang.org/), electric guitar).
+Contemplating further studies (omscs? something in Tokyo?).
+
+Not very seriously, but briefly had a thought - "I should study astronomy" after watching these:
+
+- [Terence Tao on the cosmic distance ladder - 3blue1brown](https://www.youtube.com/watch?v=YdOXS_9_P4U)
+- follow up to above
+- A lot of [acollierastro](https://www.youtube.com/@acollierastro) videos
+
 *Date*: 2025/07/25
 
 It's been a while since I updated this page, too many things to do.
