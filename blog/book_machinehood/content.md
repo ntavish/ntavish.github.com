@@ -6,7 +6,7 @@
 ![Book cover, Machinehood](cover.jpg)
 
 _Why I picked it_: Saw some tweets about this book and it caught my eye - an Indian origin
-author, a well receivedf science fiction novel, and a female perspective. Before this book,
+author, a well received science fiction novel, and a female perspective. Before this book,
 of what I have read before, it was a null set.
 
 Overall, I quite liked the book, the world building was fascinating and quite different from
