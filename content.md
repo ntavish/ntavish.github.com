@@ -2,6 +2,17 @@
 **Hi!** You've reached my corner of the internet.<br>
 This will be my "status" page and I will try to keep it updated with what I've been up to<br>
 
+*Date*: 2026/05/24
+
+Reviewed [Mahinehood](blog/book_machinehood/).
+
+It's only somewhat intentional that this blog is hard for search engines or AI tools to parse and access
+because it's all client side rendered and does not even have a sitemap or RSS or such to assist either
+search engines or people to access or knwo when something new is added. I used to be a somewhat heavt RSS
+user, but at this point I don't anymore (and it is not great - it makes one slave to the feed), and I do
+not know anyone who does either, so I'm not sure who it would really help by adding assistance for automated
+tools.
+
 *Date*: 2026/03/03
 
 Sleep deprivation mostly.
