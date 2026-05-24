@@ -4,7 +4,7 @@ This will be my "status" page and I will try to keep it updated with what I've b
 
 *Date*: 2026/05/24
 
-Reviewed [Mahinehood](blog/book_machinehood/).
+Reviewed [Machinehood](blog/book_machinehood/).
 
 It's only somewhat intentional that this blog is hard for search engines or AI tools to parse and access
 because it's all client side rendered and does not even have a sitemap or RSS or such to assist either
