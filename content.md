@@ -2,6 +2,10 @@
 **Hi!** You've reached my corner of the internet.<br>
 This will be my "status" page and I will try to keep it updated with what I've been up to<br>
 
+*Date*: 2026/06/10
+
+Watching this great reaction/analysis of BoC album 'Inferno': [Ixi:  Boards of Canada "Inferno" first listen and analysis](https://www.youtube.com/watch?v=jduXn4yeM8k).
+
 *Date*: 2026/05/24
 
 Reviewed [Machinehood](blog/book_machinehood/).
