@@ -21,14 +21,25 @@
       )
     </script>
     <link rel="stylesheet" href="/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Tavish's blog" href="/blog/feed.xml">
   </head>
   <body>
     <div class="topnav">
-      <a class="active" href="/">Home</a>
-      <a href="#" hx-get="/blog/menu.md" hx-target="#col-1" hx-trigger="click">blog</a>
-      <a href="#" hx-get="/projects/menu.md" hx-target="#col-1" hx-trigger="click">projects</a>
-      <a href="#" hx-get="/pictures/menu.md" hx-target="#col-1" hx-trigger="click">pictures</a>
+      <a href="/">Home</a>
+      <a href="/blog/">blog</a>
+      <a href="/projects/">projects</a>
+      <a href="/pictures/">pictures</a>
+      <a href="/about/">about</a>
     </div>
+    <script>
+      // highlight the section we're in: /blog/should/ -> "blog", / -> ""
+      (function () {
+        var section = location.pathname.split('/')[1] || '';
+        document.querySelectorAll('.topnav a').forEach(function (a) {
+          if ((a.getAttribute('href').split('/')[1] || '') === section) a.classList.add('active');
+        });
+      })();
+    </script>
     <br>
     <table width="100%">
       <tr>

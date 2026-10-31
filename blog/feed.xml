@@ -1,0 +1,35 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tavish's blog</title>
+  <link href="https://ntavish.in/blog/"/>
+  <link rel="self" href="https://ntavish.in/blog/feed.xml"/>
+  <id>https://ntavish.in/blog/</id>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <author><name>Tavish Naruka</name></author>
+{%- comment -%}
+  Built by GitHub Pages (Jekyll) on push, and by serve.py locally.
+  Posts come from menu.md (in its order), skipping .xml links (the feed itself);
+  each post's date comes from its "**Dated**:" line.
+  serve.py only understands the Liquid used here - keep it simple.
+{%- endcomment -%}
+{%- capture menu -%}{% include_relative menu.md %}{%- endcapture -%}
+{%- assign links = menu | split: '<a href="' -%}
+{%- for chunk in links offset:1 -%}
+  {%- assign href = chunk | split: '"' | first -%}
+  {%- unless href contains '.xml' -%}
+  {%- assign title = chunk | split: '">' | last | split: '</a>' | first -%}
+  {%- assign dir = href | remove_first: '/blog/' -%}
+  {%- capture post -%}{% include_relative {{ dir }}content.md %}{%- endcapture -%}
+  {%- assign dated = post | split: '**Dated**:' -%}
+  {%- assign day = dated[1] | newline_to_br | split: '<br />' | first | strip | replace: '/', '-' %}
+  <entry>
+    <title>{{ title | xml_escape }}</title>
+    <link href="https://ntavish.in{{ href }}"/>
+    <id>https://ntavish.in{{ href }}</id>
+    <updated>{% if day != "" %}{{ day }}T00:00:00+09:00{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</updated>
+  </entry>
+  {%- endunless -%}
+{%- endfor %}
+</feed>
