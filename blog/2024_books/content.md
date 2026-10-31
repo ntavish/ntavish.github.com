@@ -57,7 +57,7 @@ I really like this book, the author is really smart, and has covered a lot of gr
 
 ![](luddite.png)
 
-Review: Already reviewed [here](../book_luddite/).
+Review: Already reviewed [here](/blog/book_luddite/).
 
 **Rating**: 5/5
 
